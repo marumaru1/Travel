@@ -1,0 +1,19 @@
+@mixin columns ($width) {
+    display: flex;
+    flex-wrap: wrap;
+   
+ justify-content: space-between;
+ >* {
+    flex-basis: $width;
+ }
+}
+
+@mixin columns1 ($width) {
+   display: flex;
+gap: 40px;
+  
+justify-content: space-between;
+>* {
+   flex-basis: $width;
+}
+}

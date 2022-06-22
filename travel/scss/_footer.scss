@@ -1,0 +1,26 @@
+.footer-navigation__column {
+    display: flex;
+    gap: 290px;
+    justify-content: flex-end;
+}
+
+.footer-navigation__links {
+    display: flex;
+    align-items: center;
+    width: auto;
+    column-gap: 30px;
+    justify-content: right;
+    padding-right:123px ;
+}
+
+.footer-navigation__title {
+    font-family: 'Red Hat Text';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 21px;
+
+color: #FFFFFF;
+text-align: right;
+
+}

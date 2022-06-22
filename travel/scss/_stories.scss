@@ -1,0 +1,42 @@
+.strategy__name {
+    font-family: 'Aleo';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+
+color: #0D606F;
+width: 760px;
+height: 184px;
+
+}
+
+.a_blue {
+    font-family: 'Aleo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-decoration-line: underline;
+    
+    color: #0D606F;
+}
+
+.strategy__image {
+   height: 250px;
+    margin-left: 120px;
+     
+}
+
+.strategy__content {
+    padding-right: 120px;
+}
+
+.block-shadowed {
+    display: flex;
+    gap: 40px;
+    justify-content: space-around;
+    overflow: hidden;
+    height: 290px;
+    align-items: center;
+}

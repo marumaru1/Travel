@@ -1,0 +1,30 @@
+.header__wrapper {
+
+  padding: 20px 0 20px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__logo-line {
+  display: flex;
+  padding-left: 120px;
+
+}
+
+.logo {
+  text-decoration: none;
+  font-family: 'Magra';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 39px;
+  max-width: 216px;
+  color: #FFFFFF;
+
+  &:hover {
+    color: $color_additional;
+    @extend %transition;
+  }
+
+}

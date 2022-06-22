@@ -1,0 +1,19 @@
+.layout-3-column {
+    @include columns ($width: 30%);
+}
+
+.steps__text {
+    font-family: 'Aleo';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+
+
+color: #0D606F;
+text-align: center;
+}
+
+.steps__icon {
+    text-align: center;
+}

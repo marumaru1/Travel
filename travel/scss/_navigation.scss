@@ -1,0 +1,27 @@
+.navigation__link {
+    list-style: none;
+    cursor: pointer !important;
+    color: #FFFFFF;
+
+    &:hover {
+        list-style: none;
+        cursor: pointer !important;
+        color: $color_additional;
+        @extend %transition;
+
+    }
+}
+
+.navigation {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 42px;
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: #FFFFFF;
+}

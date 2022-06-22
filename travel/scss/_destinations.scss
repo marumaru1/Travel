@@ -1,0 +1,60 @@
+.images_wrapp {
+    position	: relative;
+ 
+}
+
+.layout-2-column {
+    display: flex;
+    gap: 40px;
+    justify-content: space-around;
+    overflow: hidden;
+ 
+}
+
+
+.bottom-left {
+    position: absolute;
+    bottom: 40px;
+    padding-left: 15px;
+    width: 100%;
+    margin: 0;
+    font-family: 'Red Hat Text';
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 42px;
+
+color: #FFFFFF;
+}
+
+
+
+.switchs label span {
+    display: inline-block;
+    z-index: 2;
+    width: 20px;
+    height: 20px;
+    background: rgba(242, 120, 92, 0.5);
+    border-radius: 50%;
+    text-align: center;
+    cursor: pointer;
+}
+
+.switchs label span:hover {
+    background-color:  #F2785C;
+}
+
+.switchs {
+    text-align: center;
+    padding-top: 24px;
+    padding-bottom: 40px;
+}
+
+
+
+
+
+
+
+
+
